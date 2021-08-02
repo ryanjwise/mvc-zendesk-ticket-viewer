@@ -87,4 +87,4 @@ Project is: _In Progress_. This project is in the early stages of its implementa
 
 Created by: [@RyanJWise](@RyanJWise) - ryan.jeffwise@gmail.com
 
-Project Link: 
+Project Link: https://github.com/ryanjwise/mvc-zendesk-ticket-viewer
