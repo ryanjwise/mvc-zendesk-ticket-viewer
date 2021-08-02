@@ -1,0 +1,14 @@
+# Folders
+reference/
+
+# Files
+# Scratchpad file
+scrachpad.rb
+
+# Gemlock
+Gemfile.lock
+
+# Credentials File
+
+
+# Development Tests
