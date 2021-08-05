@@ -10,3 +10,4 @@ gem "rspec", "~> 3.10"
 
 # Zendesk API Client
 gem "zendesk_api"
+gem "tty-prompt", "~> 0.23.1"

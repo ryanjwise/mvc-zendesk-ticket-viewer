@@ -1,5 +1,7 @@
 ##### Dependencies #####
 
+require 'tty-prompt'
+
 ##### File imports #####
 ### Models ###
 ### Views ###
