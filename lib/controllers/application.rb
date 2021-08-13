@@ -2,6 +2,7 @@
 class Application
   def initialize
     @zendesk = Zendesk.new
+    @tickets = nil
   end
 
   def main_menu
@@ -19,6 +20,7 @@ class Application
       #   puts
       #   pp item
       # end
+      Print.ticket_table(@tickets) unless @tickets == nil
       selection = Prompt.menu(Options::OPTIONS)
       Options.handle_main_menu(selection)
     end
