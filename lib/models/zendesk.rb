@@ -1,10 +1,10 @@
 class Zendesk
   attr_reader :client, :ticket
 
-  def initialize
-    @subdomain = 'ryanjwise'
-    @username = 'ryan.jeffwise@gmail.com'
-    @password = 'LightningRidge'
+  def initialize(subdomain, username, password)
+    @subdomain = subdomain
+    @username = username
+    @password = password
     @client = configure_api
     @ticket = ZendeskAPI::Ticket
   end
