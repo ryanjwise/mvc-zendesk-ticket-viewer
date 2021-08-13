@@ -1,11 +1,13 @@
 ##### Dependencies #####
 
 require 'tty-prompt'
+require 'zendesk_api'
 
 ##### File imports #####
 
 ### Models ###
 # Options Handler
+require_relative 'models/zendesk'
 require_relative 'models/options'
 
 ### Views ###
